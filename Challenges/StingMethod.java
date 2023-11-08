@@ -2,7 +2,7 @@ package Challenges;
 
 import java.util.Scanner;
 
-public class Trial {
+public class StingMethod {
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
                 String word = scan.nextLine();
