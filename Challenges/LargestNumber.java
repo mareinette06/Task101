@@ -7,13 +7,13 @@ public class LargestNumber {
         System.out.println("Enter three numbers:");
 
         System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
 
         System.out.print("Enter the third number: ");
-        double num3 = scanner.nextDouble();
+        int num3 = scanner.nextInt();
 
         if (num1 == num2 && num2 == num3) {
             System.out.println("All numbers are equal: " + num1);
@@ -25,8 +25,8 @@ public class LargestNumber {
         scanner.close();
     }
 
-    public static double findLargestNumber(double num1, double num2, double num3) {
-        double largest = num1;
+    public static double findLargestNumber(int num1, int num2, int num3) {
+        int largest = num1;
 
         if (num2 > largest) {
             largest = num2;
